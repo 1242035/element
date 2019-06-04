@@ -329,9 +329,10 @@ export default {
     emitChange() {
       this.$nextTick(() => {
         if (this.internalCurrentPage !== this.lastEmittedPage || this.userChangePageSize) {
-          this.$emit('current-change', this.internalCurrentPage);
+          
           this.lastEmittedPage = this.internalCurrentPage;
           this.userChangePageSize = false;
+          this.$emit('current-change', this.internalCurrentPage);
         }
       });
     }
