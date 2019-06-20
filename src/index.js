@@ -6,6 +6,7 @@ import Alert from '../packages/alert/index.js';
 import Notification from '../packages/notification/index.js';
 import Loading from '../packages/loading/index.js';
 import Upload from '../packages/upload/index.js';
+import Progress from '../packages/progress/index.js';
 import InfiniteScroll from '../packages/infiniteScroll/index.js';
 import locale from 'element-ui/src/locale';
 import CollapseTransition from 'element-ui/src/transitions/collapse-transition';
@@ -15,6 +16,7 @@ const components = [
   DatePicker,
   Alert,
   Upload,
+  Progress,
   CollapseTransition
 ];
 
@@ -56,5 +58,6 @@ export default {
   Alert,
   Notification,
   Upload,
+  Progress,
   InfiniteScroll
 };
