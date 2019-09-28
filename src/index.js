@@ -8,6 +8,7 @@ import Loading from '../packages/loading/index.js';
 import Upload from '../packages/upload/index.js';
 import Progress from '../packages/progress/index.js';
 import Select from '../packages/select/index.js';
+import Option from '../packages/option/index.js';
 import InfiniteScroll from '../packages/infiniteScroll/index.js';
 import locale from 'element-ui/src/locale';
 import CollapseTransition from 'element-ui/src/transitions/collapse-transition';
@@ -19,6 +20,7 @@ const components = [
   Upload,
   Progress,
   Select,
+  Option,
   CollapseTransition
 ];
 
@@ -62,5 +64,6 @@ export default {
   Upload,
   Progress,
   Select,
+  Option,
   InfiniteScroll
 };

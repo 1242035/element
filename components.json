@@ -7,5 +7,6 @@
   "upload": "./packages/upload/index.js",
   "progress": "./packages/progress/index.js",
   "select": "./packages/select/index.js",
+  "option": "./packages/option/index.js",
   "infiniteScroll": "./packages/infiniteScroll/index.js"
 }
